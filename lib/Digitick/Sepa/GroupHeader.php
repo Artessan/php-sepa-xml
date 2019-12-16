@@ -240,6 +240,14 @@ class GroupHeader
     {
         return $this->creationDateTime;
     }
+    
+    /**
+     * @param \DateTime $dateTime
+     */
+    public function setCreationDateTime($dateTime)
+    {
+        return $this->creationDateTime = $dateTime;
+    }
 
     /**
      * @param string $creationDateTimeFormat
